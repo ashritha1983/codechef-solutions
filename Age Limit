@@ -1,0 +1,27 @@
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+/* Name of the class has to be "Main" only if the class is public. */
+class Codechef
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		Scanner sc=new Scanner(System.in);
+		int age=sc.nextInt();
+		int m=30;
+		int n=31;
+		int p=25;
+		int q=15;
+		if(m>=21 && m<34){
+		    System.out.println("YES");
+		}else if(n>=25 && n!=31){
+		    System.out.println("NO");
+		}else if(p>=22 && p<29){
+		    System.out.println("YES");
+		}else{
+		    System.out.println("NO");
+		}
+	}
+}
